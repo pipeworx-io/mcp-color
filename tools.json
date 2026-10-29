@@ -1,0 +1,55 @@
+[
+  {
+    "name": "color_convert",
+    "description": "Convert a color (HEX, rgb(), hsl(), or a CSS name) to all formats: HEX, RGB and HSL. Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "color": {
+          "type": "string",
+          "description": "e.g. \"#3498db\", \"rgb(52,152,219)\", \"hsl(204,70%,53%)\", or \"tomato\"."
+        }
+      },
+      "required": [
+        "color"
+      ]
+    }
+  },
+  {
+    "name": "color_contrast",
+    "description": "Compute the WCAG 2.1 contrast ratio between two colors and whether it passes AA/AAA for normal and large text. Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "foreground": {
+          "type": "string",
+          "description": "Foreground/text color."
+        },
+        "background": {
+          "type": "string",
+          "description": "Background color."
+        }
+      },
+      "required": [
+        "foreground",
+        "background"
+      ]
+    }
+  },
+  {
+    "name": "nearest_color",
+    "description": "Find the nearest CSS named color to a given color (Euclidean RGB distance). Keyless, offline.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "color": {
+          "type": "string",
+          "description": "Any color in HEX/rgb/hsl/name."
+        }
+      },
+      "required": [
+        "color"
+      ]
+    }
+  }
+]
