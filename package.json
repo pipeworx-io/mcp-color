@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-color",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Color utilities MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "color",
     "gatewaySlug": "color",
-    "sourceHash": "v1-4a12e910e7358e68a269b4633bf9acd602ce59f322ad0435fa4025552871a650",
-    "sourceCommit": "4277282d72f9bf55e548b3799aaf737baf22152f"
+    "sourceHash": "v1-6f247209118b3da9824d98816a4278adf8983e2844ba0fefdfa7a4c835d3d601",
+    "sourceCommit": "8cc978183948532674e797c429305c9d8ab2a1c3"
   }
 }
